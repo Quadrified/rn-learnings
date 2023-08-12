@@ -1,0 +1,1 @@
+export { ExpoLocalAuthentication } from './ExpoLocalAuthentication';
