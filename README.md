@@ -17,10 +17,15 @@ Reference Links:
     - [Official Quickstart Guide](https://redux-toolkit.js.org/tutorials/quick-start)
     - [Hybrid Heroes RTK TypeScript Tutorial Article](https://hybridheroes.de/blog/2021-01-08-redux-toolkit-react-native/)
   - YouTube
-    - [Dave Gray](https://www.youtube.com/watch?v=93CR_yURoII&list=PL0Zuz27SZ-6M1J5I1w2-uZx36Qp6qhjKo&index=3)
+    - [Dave Gray RTK Playlist (Most Recommended!!!)](https://www.youtube.com/watch?v=93CR_yURoII&list=PL0Zuz27SZ-6M1J5I1w2-uZx36Qp6qhjKo&index=3)
     - [Codedamn RTK Playlist](https://www.youtube.com/playlist?list=PLC3y8-rFHvwiaOAuTtVXittwybYIorRB3)
     - [Intellect Developer RTK Tutorial](https://www.youtube.com/watch?v=MmIevIioqMY)
 
 - Redux Persist withRedux Toolkit
   - Articles
     - [Blog Rocket Article](https://blog.logrocket.com/persist-state-redux-persist-redux-toolkit-react/#persisting-state-redux-persist)
+
+- Animations
+  - Reactiive
+    - [Animations](https://www.youtube.com/playlist?list=PLjHsmVtnAr9TWoMAh-3QMiP7bPUqPFuFZ)
+    - [Gestures](https://www.youtube.com/playlist?list=PLjHsmVtnAr9QnQ8f5PD67ThU2VS7SenC_)
