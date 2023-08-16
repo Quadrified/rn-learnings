@@ -19,6 +19,14 @@ export const AnimationsBasic = (props) => {
     return `${progress * 2 * Math.PI}rad`;
   };
 
+  useEffect(() => {
+    // progress.value = withTiming(1);
+    // scale.value = withTiming(2);
+    // -1 for infinite
+    progress.value = withRepeat(withSpring(1), 3, true);
+    scale.value = withRepeat(withSpring(2), 3, true);
+  }, []);
+
   const reanimatedStyle = useAnimatedStyle(() => {
     return {
       opacity: progress.value,
@@ -28,14 +36,6 @@ export const AnimationsBasic = (props) => {
         { rotate: handleRotation(progress.value) },
       ],
     };
-  }, []);
-
-  useEffect(() => {
-    // progress.value = withTiming(1);
-    // scale.value = withTiming(2);
-    // -1 for infinite
-    progress.value = withRepeat(withSpring(1), 3, true);
-    scale.value = withRepeat(withSpring(2), 3, true);
   }, []);
 
   return (

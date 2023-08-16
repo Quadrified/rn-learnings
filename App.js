@@ -22,8 +22,11 @@ import {
 
 import {
   AnimationsBasic,
+  InterpolateColorsBasic,
   PanGestureBasic,
+  PinchGestureHandlerBasic,
   ScrollViewInterpolate,
+  TapGesturesBasic,
 } from './src/ReactiiveAnimationsAndGestures';
 
 // enableLatestRenderer();
@@ -39,7 +42,7 @@ import {
 const App = () => {
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <ScrollViewInterpolate />
+      <TapGesturesBasic />
     </GestureHandlerRootView>
   );
 };
