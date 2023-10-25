@@ -14,7 +14,7 @@ import Animated, {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
-import { height, width } from '../Animations/utils';
+import { height, width } from '../utils';
 
 const IMAGE_URI =
   'https://images.unsplash.com/photo-1691663477014-165c5f1d5fe8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=788&q=80';

@@ -1,22 +1,13 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
-import {
-  View,
-  StyleSheet,
-  Text,
-  StatusBar,
-  Image,
-  ImageBackground,
-} from 'react-native';
+import React, { useRef, useCallback } from 'react';
+import { View, StyleSheet, Image, ImageBackground } from 'react-native';
 import HeartImage from './assets/heart.png';
 import InstaImage from './assets/image.jpeg';
-import { width } from '../Animations/utils';
+import { width } from '../utils';
 import { TapGestureHandler } from 'react-native-gesture-handler';
 import Animated, {
   useAnimatedStyle,
   useSharedValue,
-  withDecay,
   withDelay,
-  withRepeat,
   withSpring,
   withTiming,
 } from 'react-native-reanimated';

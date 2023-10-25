@@ -18,7 +18,7 @@ import {
   AnimationWorklets,
   PanGestureHandlerDemo,
   TransitionsDemo,
-} from './src/Animations';
+} from './src/Animations/WilliamCandillonAnimations';
 
 import {
   AnimationsBasic,
@@ -27,23 +27,17 @@ import {
   PinchGestureHandlerBasic,
   ScrollViewInterpolate,
   TapGesturesBasic,
-} from './src/ReactiiveAnimationsAndGestures';
+} from './src/Animations/ReactiiveAnimationsAndGestures';
 
 // enableLatestRenderer();
 
-// const App = () => {
-//   return (
-//     <Provider store={store}>
-//       <RTKTodoWithApi />
-//     </Provider>
-//   );
-// };
-
 const App = () => {
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <TapGesturesBasic />
-    </GestureHandlerRootView>
+    <Provider store={store}>
+      <GestureHandlerRootView style={{ flex: 1 }}>
+        <TapGesturesBasic />
+      </GestureHandlerRootView>
+    </Provider>
   );
 };
 
